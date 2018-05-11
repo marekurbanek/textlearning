@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 21px;
+  background-color: #fff
+}
+
+.word {
+  display: inline;
+}
+
+.sidebar {
+  height: 100vh;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10%;
+  padding: 15px;
+  -webkit-box-shadow: 3px 0px 17px 0px rgba(173, 173, 173, 1);
+  -moz-box-shadow: 3px 0px 17px 0px rgba(173, 173, 173, 1);
+  box-shadow: 3px 0px 17px 0px rgba(173, 173, 173, 1);
+}
+
+.container {
+  display: inline-block;
+  width: 70%;
+  margin-left: 20%;
+}
+
+.text-area {
+  margin-top: 40px;
+  border-radius: 10px;
+  width: 90%;
+  height: 250px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  border: 0px solid white;
+  font-size: 70%;
+  color: white;
+  -webkit-box-shadow: 2px 0px 7px 0px rgba(173, 173, 173, 1);
+  -moz-box-shadow: 2px 0px 7px 0px rgba(173, 173, 173, 1);
+  box-shadow: 2px 0px 7px 0px rgba(173, 173, 173, 1);
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
+
+.btn-instructions,.btn-textarea {
+  background-color: #3498db;
+  margin-top: 20px;
+
+  transition: background-color 0.5s;
+}
+
+.btn-instructions:hover, .btn-textarea:hover {
+  background-color: #2978ad;
+}
+
+.instructions {
+  width: 80%;
+  font-size: 80%;
+  margin: auto;
+  text-align: left;  
+}
+
+
+.instructions h2{
+  text-align: center;
+  margin-bottom: -20px;
+}
+.btn-learn {
+  background-color: #16a085;
+  transition: background-color 0.5s;
+}
+.btn-learn:hover {
+  background-color: #107a65;
+}
+
+.text-container{
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(219,219,219,1);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(219,219,219,1);
+  box-shadow: 0px 0px 5px 2px rgba(219,219,219,1);
+}
+
+.btn-clear{
+  margin-top: 20px;
+  background-color: #e74c3c;
+  transition: background-color 0.5s;
+}
+.btn-clear:hover{
+  background-color: #c0392b;
+}
+
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 800px) {
+  html, body{
+    font-size: 16px
+  }
+
+  .container{
+    margin-left: 28%
+  }
+
+}
