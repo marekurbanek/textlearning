@@ -63,12 +63,24 @@ body {
 }
 
 .instructions {
-  width: 80%;
+  width: 100%;
   font-size: 80%;
   margin: auto;
   text-align: left;  
 }
 
+.instructions ol{
+  margin-left: 20%;
+}
+
+.instructions-img{
+  width: 90%;
+  text-align: center;
+}
+.instructions-img img{
+  width: 60%;
+  display: inline-block;
+}
 
 .instructions h2{
   text-align: center;
@@ -101,11 +113,7 @@ body {
   background-color: #c0392b;
 }
 
-.clearfix{
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 @media only screen and (max-width: 800px) {
   html, body{
@@ -116,4 +124,11 @@ body {
     margin-left: 28%
   }
 
+  .instructions ol{
+    margin-left: 5%;
+  }
+
+  .instructions img{
+    width: 100%;
+  }
 }
